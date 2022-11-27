@@ -5,7 +5,7 @@ int numB = Convert.ToInt32(Console.ReadLine());
 int max = 0;
 int min = 0;
 
-if(numA > numB)
+if (numA > numB)
 {
     max = numA;
     min = numB;

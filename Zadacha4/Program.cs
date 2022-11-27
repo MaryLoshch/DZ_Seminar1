@@ -6,10 +6,10 @@ Console.WriteLine("Введите третье целое число ");
 int numC = Convert.ToInt32(Console.ReadLine());
 int max = 0;
 
-if(numA > numB)
+if (numA > numB)
 {
     max = numA;
-    if(numA > numC)
+    if (numA > numC)
     {
         max = numA;
     }
@@ -20,8 +20,8 @@ if(numA > numB)
 }
 else
 {
-max = numB;
-if(numB > numC)
+    max = numB;
+    if (numB > numC)
     {
         max = numB;
     }
