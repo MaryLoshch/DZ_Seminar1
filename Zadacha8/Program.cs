@@ -1,11 +1,11 @@
 ﻿Console.WriteLine("Введите целое число ");
-int Num = Convert.ToInt32(Console.ReadLine());
+int N = Convert.ToInt32(Console.ReadLine());
 int x = 1;
-while (x <= Num)
+while (x <= N)
 {
     if (x % 2 == 0)
     {
-        Console.Write($"{x} " );
+        Console.Write($"{x} ");
         x++;
 
     }
